@@ -33,7 +33,7 @@ const CartProduct = ({product}) => {
     };
   return (
     <div className='d-flex  mb-5'>
-        <img className="w-25 h-25" src={product.thumbnail} alt="Card image cap"></img>
+        <img className="w-25 h-25" src={product.image} alt="Card image cap"></img>
         <div className='detail ms-4 w-20 '>
             <h4> {product.title }</h4>
             <p>{ product.description}</p>
